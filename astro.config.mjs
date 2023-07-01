@@ -1,5 +1,4 @@
 import { defineConfig } from 'astro/config';
-import { defineConfig } from 'astro/config';
 import vercelEdge from '@astrojs/vercel/edge';
 import { inject } from '@vercel/analytics';
 

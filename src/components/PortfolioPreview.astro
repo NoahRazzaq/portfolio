@@ -7,6 +7,15 @@ interface Props {
 
 const { data, slug } = Astro.props.project;
 ---
+<script>
+	import ScrollReveal from "scrollreveal";
+	
+	const sr = ScrollReveal({
+		delay: 500,
+		reset: true
+	})
+	
+</script>
 
 <a class="card" href={`/work/${slug}`}>
 	<span class="title">{data.title}</span>

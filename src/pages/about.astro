@@ -1,12 +1,15 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
 ---
 
-<BaseLayout title="About | Noah Razzaq" description="About Jeanine White Lorem Ipsum">
-	<div class="stack gap-20">
+
+<BaseLayout
+	title="About | Noah Razzaq"
+	description="About Jeanine White Lorem Ipsum"
+>
+	<div id="main-content" class="stack gap-20 load hidden">
 		<main class="wrapper about">
 			<Hero
 				title="About"
@@ -15,7 +18,7 @@ import Hero from '../components/Hero.astro';
 				<img
 					width="1553"
 					height="873"
-					src="/assets/at-work.jpg"
+					src="/assets/me2.jpeg"
 					alt="Jeanine White at work with a colleague"
 				/>
 			</Hero>
@@ -24,22 +27,30 @@ import Hero from '../components/Hero.astro';
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+						Lorem ipsum dolor sit amet, <a
+							href="https://astro.build/">Astro</a
+						> makes people happy. Sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Proin nibh nisl condimentum
+						id venenatis a condimentum vitae. Dapibus ultrices in iaculis
+						nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam
+						quis enim lobortis scelerisque fermentum dui faucibus in
+						ornare.
 					</p>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
+						Arcu dui vivamus arcu felis bibendum ut tristique et
+						egestas. Eget gravida cum sociis natoque penatibus. Cras
+						fermentum odio eu feugiat pretium nibh. Proin nibh nisl
+						condimentum id venenatis. Porta nibh venenatis cras sed
+						felis eget velit. Id diam vel quam elementum pulvinar
+						etiam non.
 					</p>
 					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						Ultrices tincidunt arcu non sodales neque sodales ut.
+						Sed enim ut sem viverra aliquet eget sit amet. Lacus
+						luctus accumsan tortor posuere ac ut consequat semper
+						viverra. Viverra accumsan in nisl nisi scelerisque eu
+						ultrices. In massa tempor nec feugiat nisl pretium
+						fusce.
 					</p>
 				</div>
 			</section>
@@ -117,4 +128,92 @@ import Hero from '../components/Hero.astro';
 			font-size: var(--text-lg);
 		}
 	}
+
+	.design-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 100px 0;
+  font-family: Jost;
+}
+
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-content {
+  padding: 20px;
+  background: #1f1f1f;
+  -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+          box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+  border-radius: 5px;
+  color: white;
+  padding: 1.75rem;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+  margin: 1rem;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.timeline-component {
+  margin: 0px 20px 20px 20px;
+}
+html.sr .load-hidden {
+		visibility: hidden;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+  .timeline-middle {
+    position: relative;
+    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    width: 3px;
+    height: 100%;
+  }
+  .main-middle {
+    opacity: 0;
+  }
+  .timeline-circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
 </style>
+
+<script>
+	import ScrollReveal from "scrollreveal";
+	
+	ScrollReveal()
+			.reveal("#main-content", {
+			delay: 500,
+			easing: "ease-in-out",
+			opacity: 0,
+			distance: "5px",
+		})
+</script>
