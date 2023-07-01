@@ -1,22 +1,77 @@
 ---
-import Icon from './Icon.astro';
+import Icon from "./Icon.astro";
 ---
+<section class="grid box skills">
+	
+	<div class="logo">
+		<h1>❤️</h1>
+	</div>
 
-<section class="box skills">
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Full Stack</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+	<div class="stack gap-2 lg:gap-4 logo">
+	<a href="https://flutter.dev/" target="_blank">
+		<img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-ar21.svg"
+		width="300"
+		height="150"
+		/>
+	</a>
+</div>
+
+<div class="stack gap-2 lg:gap-4 logo">
+	<a href="https://kotlinlang.org/" target="_blank">
+		<img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-ar21.svg"
+		width="300"
+		height="150"
+		/>
+	</a>
+</div>
+	<div class="stack gap-2 lg:gap-4 logo">
+		<a href="https://dart.dev/" target="_blank">
+			<img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-ar21.svg"
+			width="300"
+			height="150"
+			/>
+		</a>
 	</div>
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Industry Leader</h2>
-		<p>Neque viverra justo nec ultrices dui. Est ultricies integer quis auctor elit.</p>
+
+	<div class="stack gap-2 lg:gap-4 logo">
+		<a href="https://firebase.google.com/" target="_blank">
+			<img src="https://www.vectorlogo.zone/logos/firebase/firebase-ar21.svg"
+				width="400"
+				height="150"
+			/>
+		</a>
 	</div>
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Strategy-Minded</h2>
-		<p>Urna porttitor rhoncus dolor purus non enim praesent ornare.</p>
+
+		<div class="stack gap-2 lg:gap-4 logo">
+			<a href="https://www.swift.org/download/" target="_blank">
+				<div class="svg-container">
+					<img src="https://www.vectorlogo.zone/logos/swift/swift-ar21.svg"
+					width="300"
+					height="150"
+					/>
+				</div>
+			</a>
+		</div>
+	<div class="stack gap-2 lg:gap-4 logo">
+		<a href="https://laravel.com/" target="_blank">
+			<div class="svg-container">
+			<img src="//logowiki.net/uploads/logo/l/laravel-2.svg" width="200" height="150" />
+			</div>
+		</a>
+	</div>
+	<div class="stack gap-2 lg:gap-4 logo">
+		<a href="https://laravel.com/" target="_blank">
+			<div class="svg-container">
+			<img src="https://www.vectorlogo.zone/logos/symfony/symfony-ar21.svg" width="300" height="200" />
+			</div>
+		</a>
+	</div>
+	<div class="stack gap-2 lg:gap-4 logo">
+		<a href="https://laravel.com/" target="_blank">
+			<div class="svg-container">
+			<img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-ar21.svg" width="300" height="200" />
+			</div>
+		</a>
 	</div>
 </section>
 
@@ -27,6 +82,10 @@ import Icon from './Icon.astro';
 		padding: 1.5rem;
 		background-color: var(--gray-999_40);
 		box-shadow: var(--shadow-sm);
+	}
+
+	.svg-container {
+  		color: white; /* Set the fill color to white */
 	}
 
 	.skills {
@@ -41,6 +100,16 @@ import Icon from './Icon.astro';
 
 	.skills p {
 		color: var(--gray-400);
+	}
+
+	.logo {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.logo h1 {
+		text-align: center;
 	}
 
 	@media (min-width: 50em) {
