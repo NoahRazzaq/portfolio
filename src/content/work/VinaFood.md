@@ -10,24 +10,30 @@ tags:
   - Laravel
 ---
 
-VinaFood est un projet que j'ai réalisé lors de mon stage en DUT informatique. Il s'agit d'une application web destinée aux salariés de Vinatis, une entreprise, pour commander leur repas du midi. L'objectif principal de l'application est de fournir aux utilisateurs un large choix de produits, de restaurants et de catégories pour leur permettre de trouver facilement un repas qui correspond à leurs préférences.
+### 📄 Description
+VinaFood est une application web conçue spécifiquement pour les salariés de Vinatis, une entreprise, afin de faciliter la commande de leur repas du midi. Cette application offre aux utilisateurs un large choix de produits, de restaurants et de catégories, leur permettant ainsi de trouver facilement un repas qui correspond à leurs préférences.
 
-Ce qui distingue VinaFood des autres plateformes de commande en ligne, c'est son caractère communautaire. En effet, les utilisateurs ont la possibilité d'ajouter, de modifier et de supprimer du contenu sur le site. Cela permet à la communauté de partager ses recommandations, de mettre à jour les informations sur les restaurants et les produits, et de maintenir une base de données dynamique et actualisée.
+Ce qui rend VinaFood unique par rapport aux autres plateformes de commande en ligne, c'est son aspect communautaire. Les utilisateurs ont la possibilité d'ajouter, de modifier et de supprimer du contenu sur le site. Cette fonctionnalité favorise le partage de recommandations au sein de la communauté, la mise à jour des informations sur les restaurants et les produits, et maintient une base de données dynamique et actualisée.
 
-J'ai participé à la conception et à la réalisation des fonctionnalités clés, notamment la gestion des utilisateurs, la recherche de produits et de restaurants, la création de commandes et le processus de paiement en ligne. J'ai également contribué à l'implémentation des fonctionnalités de contribution communautaire, permettant aux utilisateurs de soumettre des modifications et des ajouts au contenu existant.
+En tant que développeur, j'ai contribué à la conception et à la réalisation des fonctionnalités clés de VinaFood. Cela comprend la gestion des utilisateurs, la recherche de produits et de restaurants, la création de commandes. J'ai également participé à l'implémentation des fonctionnalités de contribution communautaire, permettant aux utilisateurs de soumettre des modifications et des ajouts au contenu existant.
 
+Ce projet de stage en DUT informatique m'a permis d'appliquer mes compétences en développement web et de travailler en équipe sur un projet concret. J'ai acquis une expérience précieuse dans la conception, le développement et la maintenance d'une application web dans un environnement professionnel.
 
-Ce projet m'a permis de mettre en pratique mes compétences en développement web et de travailler en équipe sur un projet concret. J'ai pu acquérir une expérience précieuse dans la conception, le développement et la maintenance d'une application web en environnement professionnel.
+### ✨ Fonctionnalités
+Gestion des utilisateurs : Les salariés de Vinatis peuvent créer un compte, se connecter et gérer leurs informations personnelles.
 
-Overall, VinaFood est un projet significatif qui démontre ma capacité à concevoir et à développer une application web fonctionnelle avec des fonctionnalités communautaires.
+Recherche de produits et de restaurants : Les utilisateurs peuvent effectuer des recherches basées sur leurs préférences pour trouver des produits et des restaurants correspondants.
 
+Commandes personnalisées : Les utilisateurs peuvent créer des commandes en sélectionnant les produits de leur choix et en les ajoutant à leur panier.
 
+Contribution communautaire : Les utilisateurs peuvent ajouter, modifier et supprimer du contenu sur le site, permettant ainsi une base de données dynamique et actualisée.
 
+VinaFood est un projet significatif qui démontre ma capacité à concevoir et à développer une application web fonctionnelle avec des fonctionnalités communautaires. Il a été réalisé dans le cadre de mon stage en DUT informatique et m'a permis d'acquérir une expérience précieuse dans le développement web et la collaboration en équipe.
 
+### 🔧 Technologies utilisées
 
-### 🔧 Technologies utilisés
-Laravel est un framework de développement d'applications web en PHP. Il offre une structure et un ensemble de fonctionnalités prêtes à l'emploi qui facilitent le développement rapide et efficace d'applications web. Laravel suit le modèle MVC (Modèle-Vue-Contrôleur) pour organiser le code et offre de nombreuses fonctionnalités telles que la gestion des routes, des migrations de base de données, l'ORM Eloquent, la gestion des formulaires, la gestion des sessions, etc. Laravel est également connu pour sa syntaxe élégante, sa facilité de compréhension et sa communauté active.
+-Laravel 
 
-Docker est une plateforme de conteneurisation qui permet d'emballer une application et ses dépendances dans un conteneur virtuel. Cela permet d'isoler l'application et de la rendre portable, ce qui facilite le déploiement et la gestion de l'application sur différentes plateformes. Docker offre une approche légère et efficace pour créer des environnements de développement reproductibles. Il vous permet de spécifier les dépendances de votre application dans un fichier de configuration appelé "Dockerfile" et de créer des images Docker qui peuvent être exécutées sur n'importe quel système prenant en charge Docker.
+-Docker 
 
-MySQL Database Service est un service de base de données géré qui permet de déployer et de gérer des bases de données MySQL dans le cloud. Il offre une solution entièrement gérée, ce qui signifie que vous n'avez pas à vous soucier de la gestion des serveurs, des sauvegardes, des mises à jour, etc. MySQL est une base de données relationnelle open source très populaire et largement utilisée dans le développement web. Il offre une performance élevée, une grande fiabilité et une compatibilité avec de nombreuses applications et outils.
+-MySQL 
