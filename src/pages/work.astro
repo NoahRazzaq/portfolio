@@ -16,6 +16,18 @@ const projects = (await getCollection('work')).sort(
 );
 ---
 
+<script>
+	import ScrollReveal from "scrollreveal";
+	
+	const sr = ScrollReveal({
+		delay: 500,
+		reset: true
+	})
+	
+	sr.reveal('#main-content')
+
+</script>
+
 <BaseLayout
 	title="| Noah Razzaq"
 	description="Learn about Jeanine White's most recent projects"
