@@ -20,15 +20,15 @@ En tant que développeur, j'ai contribué à la conception et à la réalisation
 Ce projet de stage en DUT informatique m'a permis d'appliquer mes compétences en développement web et de travailler en équipe sur un projet concret. J'ai acquis une expérience précieuse dans la conception, le développement et la maintenance d'une application web dans un environnement professionnel.
 
 ### ✨ Fonctionnalités
-Gestion des utilisateurs : Les salariés de Vinatis peuvent créer un compte, se connecter et gérer leurs informations personnelles.
+-Gestion des utilisateurs : Les salariés de Vinatis peuvent créer un compte, se connecter et gérer leurs informations personnelles.
 
-Recherche de produits et de restaurants : Les utilisateurs peuvent effectuer des recherches basées sur leurs préférences pour trouver des produits et des restaurants correspondants.
+-Recherche de produits et de restaurants : Les utilisateurs peuvent effectuer des recherches basées sur leurs préférences pour trouver des produits et des restaurants correspondants.
 
-Commandes personnalisées : Les utilisateurs peuvent créer des commandes en sélectionnant les produits de leur choix et en les ajoutant à leur panier.
+-Commandes personnalisées : Les utilisateurs peuvent créer des commandes en sélectionnant les produits de leur choix et en les ajoutant à leur panier.
 
-Contribution communautaire : Les utilisateurs peuvent ajouter, modifier et supprimer du contenu sur le site, permettant ainsi une base de données dynamique et actualisée.
+-Contribution communautaire : Les utilisateurs peuvent ajouter, modifier et supprimer du contenu sur le site, permettant ainsi une base de données dynamique et actualisée.
 
-VinaFood est un projet significatif qui démontre ma capacité à concevoir et à développer une application web fonctionnelle avec des fonctionnalités communautaires. Il a été réalisé dans le cadre de mon stage en DUT informatique et m'a permis d'acquérir une expérience précieuse dans le développement web et la collaboration en équipe.
+-VinaFood est un projet significatif qui démontre ma capacité à concevoir et à développer une application web fonctionnelle avec des fonctionnalités communautaires. Il a été réalisé dans le cadre de mon stage en DUT informatique et m'a permis d'acquérir une expérience précieuse dans le développement web et la collaboration en équipe.
 
 ### 🔧 Technologies utilisées
 

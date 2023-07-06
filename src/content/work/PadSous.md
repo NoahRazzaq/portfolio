@@ -11,7 +11,6 @@ tags:
   - Kotlin
 ---
 
-
 <a href = "https://github.com/NoahRazzaq/PadSou"> Lien Github </a>
 
 ### 📄 Description
@@ -20,8 +19,9 @@ PadSous est une application Android développée en utilisant Kotlin et Jetpack 
 
 ### ✨ Fonctionnalités
 
-Proposer des bons plans adaptés aux étudiants
-Interface simple et intuitive pour une expérience utilisateur optimale
+-Proposer des bons plans adaptés aux étudiants
+
+-Interface simple et intuitive pour une expérience utilisateur optimale
 
 ### 🔧 Technologies Utilisées
 

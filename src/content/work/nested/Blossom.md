@@ -32,5 +32,4 @@ Blossom est une application artistique conçue pour offrir une expérience immer
 
 -Firebase
 
-Lien du git  
 
