@@ -6,8 +6,10 @@ img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
 tags:
   - Dev
-  - Web
-  - Symfony
+  - Mobile
+  - IOS 
+  - Android
+video: "https://www.youtube.com/watch?v=NP50bfjWpC0"
 ---
 
 ### 📄 Description
@@ -31,5 +33,7 @@ Blossom est une application artistique conçue pour offrir une expérience immer
 -Flutter 
 
 -Firebase
+
+### 🎥 Démo
 
 

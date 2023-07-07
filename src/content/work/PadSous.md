@@ -8,7 +8,7 @@ tags:
   - Dev
   - Mobile
   - Android
-  - Kotlin
+video : "https://youtu.be/fttH9-lGpNs"
 ---
 
 <a href = "https://github.com/NoahRazzaq/PadSou"> Lien Github </a>
@@ -30,3 +30,5 @@ PadSous est une application Android développée en utilisant Kotlin et Jetpack 
 -Jetpack Compose
 
 -Firebase
+
+### 🎥 Démo

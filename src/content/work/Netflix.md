@@ -9,6 +9,7 @@ tags:
   - Dev
   - Mobile
   - IOS
+video: "https://youtu.be/8AgpWk0UNQY"
 ---
 
 <a href = "https://github.com/NoahRazzaq/MovieApp"> Lien Github </a>
@@ -37,3 +38,5 @@ Ceci est une application ressemblant à Netflix, développée avec Swift en util
 
 -API The Movie DB
 
+
+### 🎥 Démo
